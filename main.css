@@ -6,6 +6,7 @@
 #adatbevitel {
     background-color: rgb(238, 238, 238);
     padding: 15px;
+    border-radius: 20px;
 }
 
 #elonezet {
@@ -14,4 +15,17 @@
 
 #hibajelzes {
     color: red;
+}
+
+#kimenetvege {
+    text-align: center;
+}
+
+#alaphelyzet {
+    margin: auto;
+    display: block;
+}
+
+input {
+    width: 100%;
 }
