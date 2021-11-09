@@ -9,28 +9,33 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <form class="valaszt">
+    <form  id="valaszt">
+        <div id="adatbevitel">
         <div>
             <label>Megjelenítendő  szöveg:</label><br>
             <input type="text" value="Árvíztűrő tükörfúrógép">
-        </div>
+            <span id="hibajelzes"></span>
+        </div><br>
         <div>
             <label>Betűméret:</label><br>
-            <input type="number" value="12">
-        </div>
+            <input type="number" value="12" id="meret">
+        </div><br>
         <div>
             <label>Szövegszín:</label><br>
-            <input type="color" value="">
-        </div>
+            <input type="color" value="" id="szovegszin">
+        </div><br>
         <div>
             <label>Háttérszín:</label><br>
-            <input type="color" value="">
-        </div>
-    </form>
-
-    <form id="elonezet">
+            <input type="color" value="" id="hatterszin">
+        </div><br>
+        <button id="alaphelyzet">Alaphelyzet</button>
+    </div>
+    
         <h2>Előnézet</h2>
-        <label id="kimeneti">Árvíztűrő tükörfúrógép</label>
-    </form>
+        <div id="elonezet">
+        <label id="kimenetvege"></label>
+        </div>
+     </form>
+
 </body>
 </html>
